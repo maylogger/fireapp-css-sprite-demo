@@ -1,0 +1,54 @@
+.icons-sprite, .icons-calendar, .icons-email, .icons-home, .icons-phone, .icons-tag {
+  background: url('/images/icons-sdbd3326846.png') no-repeat;
+}
+
+.icons-calendar {
+  background-position: 0 0;
+  height: 24px;
+  width: 24px;
+}
+.icons-calendar:hover, .icons-calendar.calendar_hover, .icons-calendar.calendar-hover {
+  background-position: 0 -170px;
+}
+
+.icons-email {
+  background-position: 0 -68px;
+  height: 24px;
+  width: 24px;
+}
+
+.icons-home {
+  background-position: 0 -102px;
+  height: 24px;
+  width: 24px;
+}
+
+.icons-phone {
+  background-position: 0 -136px;
+  height: 24px;
+  width: 24px;
+}
+
+.icons-tag {
+  background-position: 0 -34px;
+  height: 24px;
+  width: 24px;
+}
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+.address {
+  padding: 0;
+  list-style: none;
+}
+.address li {
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.address [class^=icons-] {
+  float: left;
+  margin-right: 10px;
+}

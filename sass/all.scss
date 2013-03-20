@@ -1,0 +1,23 @@
+@import "compass";
+
+$icons-sprite-dimensions: true;
+$icons-spacing: 10px;
+@import "icons/*.png";
+@include all-icons-sprites;
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+.address {
+  padding: 0;
+  list-style: none;
+  li {
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  [class^=icons-] {
+    float: left;
+    margin-right: 10px;
+  }
+}
